@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "My Angry Plugin",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "MilC",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+        {
+            "Name": "MyAngryPlugin",
+            "Type": "Runtime",
+            "LoadingPhase": "PreDefault"
+        },
+        {
+            "Name": "MyAngryPluginEditor",
+            "Type": "Editor",
+            "LoadingPhase": "PreDefault"
+        }
+	]
+}
